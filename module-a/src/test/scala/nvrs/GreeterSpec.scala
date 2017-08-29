@@ -1,11 +1,9 @@
 package nvrs
 
-import org.scalatest.{FunSpecLike, GivenWhenThen, Matchers}
-
 /**
   *
   */
-class GreeterSpec extends FunSpecLike with GivenWhenThen with Matchers {
+class GreeterSpec extends BaseSpec {
 
   describe("A Greeter") {
     it("should greet persons using their name"){

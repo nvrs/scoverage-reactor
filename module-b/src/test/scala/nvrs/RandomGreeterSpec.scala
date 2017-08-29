@@ -7,7 +7,7 @@ import scala.collection.mutable
 /**
   *
   */
-class RandomGreeterSpec extends FunSpecLike with GivenWhenThen with Matchers {
+class RandomGreeterSpec extends BaseSpec {
 
   describe("A RandomGreeter") {
     it("should fail if less than two greeters are passed as constructor arguments") {
